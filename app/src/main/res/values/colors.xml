@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#8D71DD</color>
+    <color name="colorAccent">#A3E6EC</color>
+    <color name="startButtonColor">#4EB626</color>
+    <color name="greetingsTextColor">#3F60B5</color>
+    <color name="darkGray">#585858</color>
+</resources>

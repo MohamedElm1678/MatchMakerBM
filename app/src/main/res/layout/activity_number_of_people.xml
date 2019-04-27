@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_number_of_people"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myfirstappbackground"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNumberOfPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="@string/numberOfPlayersHint"
+        android:inputType="number"
+        android:textSize="35sp"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textAskForNumberOfPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextNumberOfPlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/asksUserForNumberOfPLayers"
+        android:textColor="@color/darkGray"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/backButton_NumberOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/backButton" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/editTextNumberOfPlayers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/submitButton"
+        android:textColor="@color/startButtonColor"
+        android:textSize="30sp" />
+
+</RelativeLayout>

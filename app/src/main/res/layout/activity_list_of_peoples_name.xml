@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_list_of_peoples_name"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/myfirstappbackground">
+
+    <Button
+        android:id="@+id/backButton_ListOfPeoplesName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/backButton"/>
+
+    <TextView
+        android:id="@+id/askNameOfPeople"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/nameOfPeople"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nameOfPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/askNameOfPeople"
+        android:layout_marginTop="20dp"
+        android:inputType="textCapSentences"
+        android:hint="@string/nameHint"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/nextButtonListOfPeoplesName"
+        android:layout_below="@+id/nameOfPerson"
+        android:layout_marginTop="40dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/next"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/numberOfThePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="RelativeOverlap"
+        android:text=""/>
+
+
+</RelativeLayout>

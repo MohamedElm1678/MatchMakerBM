@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Match Maker(BM)</string>
+    <string name="button_text">Start</string>
+    <string name="greetings">Hello, Raiyan!</string>
+    <string name="infoAboutTheApp">Click the button down below to start making a tournament matchmaking</string>
+    <string name="asksUserForNumberOfPLayers">How many player are there?</string>
+    <string name="numberOfPlayersHint">Number</string>
+    <string name="submitButton">Submit</string>
+    <string name="backButton">Back</string>
+    <string name="nameOfPeople">Name of person   </string>
+    <string name="nameHint">Name</string>
+    <string name="next">Next</string>
+</resources>

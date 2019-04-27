@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myfirstappbackground"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="144dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/button_text"
+            android:textColor="@color/startButtonColor"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/greetsRaiyan"
+            android:layout_width="400dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/greetings"
+            android:textAlignment="center"
+            android:textColor="@color/greetingsTextColor"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/startButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/infoAboutTheApp"
+            android:textColor="@color/darkGray" />
+
+    </RelativeLayout>
+
+</LinearLayout>
